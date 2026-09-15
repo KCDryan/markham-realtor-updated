@@ -1,0 +1,225 @@
+{
+  "updated_at": "2026-09-15",
+  "market": {
+    "city": "Markham",
+    "region": "Ontario",
+    "country": "Canada"
+  },
+  "source": {
+    "name": "Development seed snapshot",
+    "mode": "development-seed",
+    "note": "Deterministic development seed for local builds. GitHub Actions is configured to require live data."
+  },
+  "methodology": {
+    "summary": "Eligible profiles must show a Markham-area business address. Scores combine Bayesian-adjusted review quality (60%), log-scaled review volume (25%), observed local-search visibility (10%) and profile completeness (5%). No paid-placement factor is used.",
+    "weights": {
+      "bayesian_review_quality": 60,
+      "review_volume": 25,
+      "local_search_visibility": 10,
+      "profile_completeness": 5
+    },
+    "eligibility": "Public business address must be in an accepted Markham-area postal prefix and the result must identify an agent, broker or real estate team rather than a generic brokerage office."
+  },
+  "realtors": [
+    {
+      "name": "RE/MAX Benczik Kavanagh Real Estate Team",
+      "brokerage": "RE/MAX All-Stars Benczik Kavanagh Team Realty",
+      "rating": 5,
+      "review_count": 218,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Sellers",
+        "Buyers"
+      ],
+      "address": "120 Main Street Markham N, Markham, ON L3P 1Y1",
+      "locality": "Markham",
+      "contact_link": "https://www.bkteam.ca/",
+      "phone": "+1 905-477-7766",
+      "score": 96.2,
+      "best_search_position": 1,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 1
+    },
+    {
+      "name": "The ONE Team",
+      "brokerage": "CENTURY 21 The ONE Realty, Brokerage",
+      "rating": 5,
+      "review_count": 205,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Sellers",
+        "Buyers"
+      ],
+      "address": "3601 Highway 7 E, Suite 908, Markham, ON L3R 0M3",
+      "locality": "Markham",
+      "contact_link": "https://theoneteam.ca/",
+      "phone": "",
+      "score": 95.4,
+      "best_search_position": 2,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 2
+    },
+    {
+      "name": "Pris Han",
+      "brokerage": "Carefree Home Sold Realty Inc., Brokerage",
+      "rating": 5,
+      "review_count": 138,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Sellers",
+        "Buyers"
+      ],
+      "address": "8920 Woodbine Ave, Suite 206, Markham, ON L3R 9W9",
+      "locality": "Markham",
+      "contact_link": "https://hanhomesoldrealty.com/en/",
+      "phone": "+1 647-360-8963",
+      "score": 93.1,
+      "best_search_position": 3,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 3
+    },
+    {
+      "name": "Jacky Wu Realtor",
+      "brokerage": "T-One Group Realty Inc., Brokerage",
+      "rating": 5,
+      "review_count": 111,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Sellers",
+        "Buyers"
+      ],
+      "address": "50 Cathedral High St, Unit 1, Markham, ON L6C 0N9",
+      "locality": "Markham",
+      "contact_link": "https://www.jackywurealtor.com/",
+      "phone": "+1 647-968-5899",
+      "score": 91.5,
+      "best_search_position": 4,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 4
+    },
+    {
+      "name": "Jodh Toor",
+      "brokerage": "CENTURY 21",
+      "rating": 5,
+      "review_count": 108,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Sellers",
+        "Buyers"
+      ],
+      "address": "7780 Woodbine Ave, Suite 15, Markham, ON L3R 2N7",
+      "locality": "Markham",
+      "contact_link": "https://www.google.com/maps/search/?api=1&query=Jodh+Toor+Century+21+Markham+Ontario",
+      "phone": "+1 647-526-2455",
+      "score": 90.9,
+      "best_search_position": 5,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 5
+    },
+    {
+      "name": "Antonio Saade",
+      "brokerage": "CENTURY 21 Leading Edge Realty Inc., Brokerage",
+      "rating": 5,
+      "review_count": 106,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Commercial",
+        "Investors"
+      ],
+      "address": "165 Main Street Markham N, Markham, ON L3P 1Y2",
+      "locality": "Markham",
+      "contact_link": "https://www.antoniosaade.ca/",
+      "phone": "+1 647-297-1112",
+      "score": 90.2,
+      "best_search_position": 6,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 6
+    },
+    {
+      "name": "Susan Taylor Real Estate Group",
+      "brokerage": "RE/MAX Prime Properties, Brokerage",
+      "rating": 5,
+      "review_count": 81,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Sellers",
+        "Buyers"
+      ],
+      "address": "72 Copper Creek Dr, Suite 101B, Markham, ON L6B 0P2",
+      "locality": "Markham",
+      "contact_link": "https://www.susantaylor.realtor/",
+      "phone": "+1 905-472-4702",
+      "score": 88.4,
+      "best_search_position": 7,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 7
+    },
+    {
+      "name": "Nancy Jiang",
+      "brokerage": "Bay Street Integrity Realty Inc., Brokerage",
+      "rating": 5,
+      "review_count": 77,
+      "specialties": [
+        "Markham",
+        "First-time Buyers",
+        "Investors",
+        "Residential"
+      ],
+      "address": "8300 Woodbine Ave, Markham, ON L3R 9Y7",
+      "locality": "Markham",
+      "contact_link": "https://nancyjiangrealty.com/",
+      "phone": "+1 647-677-3518",
+      "score": 87.7,
+      "best_search_position": 8,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 8
+    },
+    {
+      "name": "Rita Chemilian Real Estate Team",
+      "brokerage": "Royal LePage Your Community Realty, Brokerage",
+      "rating": 5,
+      "review_count": 73,
+      "specialties": [
+        "Markham",
+        "Residential",
+        "Commercial",
+        "Sellers"
+      ],
+      "address": "161 Main St Unionville, Unionville, ON L3R 2G8",
+      "locality": "Unionville",
+      "contact_link": "https://www.ritachemilian.com/",
+      "phone": "+1 647-360-5928",
+      "score": 86.9,
+      "best_search_position": 9,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 9
+    },
+    {
+      "name": "Arthur Zhao",
+      "brokerage": "Bay Street Realty Group Inc., Brokerage",
+      "rating": 5,
+      "review_count": 50,
+      "specialties": [
+        "Markham",
+        "Luxury",
+        "Investors",
+        "First-time Buyers"
+      ],
+      "address": "8300 Woodbine Ave, Suite 500, Markham, ON L3R 9Y7",
+      "locality": "Markham",
+      "contact_link": "https://www.google.com/maps/search/?api=1&query=Arthur+Zhao+Real+Estate+Broker+Markham+Ontario",
+      "phone": "+1 416-888-6161",
+      "score": 84.5,
+      "best_search_position": 10,
+      "rating_source": "Public business data via search-data provider",
+      "rank": 10
+    }
+  ]
+}

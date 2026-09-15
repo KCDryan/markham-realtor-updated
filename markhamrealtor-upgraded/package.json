@@ -1,0 +1,18 @@
+{
+  "name": "markhamrealtor-directory",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SEO-first Markham realtor directory deployed to Cloudflare Pages.",
+  "scripts": {
+    "render": "node scripts/render.mjs",
+    "build": "rm -rf dist && mkdir -p dist/assets && node scripts/render.mjs && npx @tailwindcss/cli -i ./src/input.css -o ./dist/styles.css --minify && cp index.html realtors.json robots.txt sitemap.xml manifest.webmanifest 404.html _headers dist/ && cp -R assets/. dist/assets/",
+    "preview": "python3 -m http.server 8000 -d dist"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "tailwindcss": "4.3.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
